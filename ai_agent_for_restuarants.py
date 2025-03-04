@@ -21,7 +21,7 @@ from langchain.memory import ConversationBufferMemory
 from langchain.chat_models import ChatOpenAI
 import openai
 
-os.environ["OPENAI_API_KEY"] ="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"
+os.environ["OPENAI_API_KEY"] ="Your_API_KEY"
 
 openai_api_key = os.getenv("OPENAI_API_KEY")
 
